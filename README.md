@@ -32,7 +32,7 @@ A step by step series of examples that tell you how to get a development environ
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on my code of conduct, and the process for submitting pull requests to me.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details and the process for submitting pull requests to `dTrace`.
 
 ## Versioning
 
