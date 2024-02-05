@@ -1,0 +1,53 @@
+using System;
+using System.IO;
+using System.IO.Pipes;
+
+class Logger
+{
+    static void Main()
+    {
+        // Create a directory for log files
+        string logDirectory = @"C:\dnelb_temp\dTrace";
+        Directory.CreateDirectory(logDirectory);
+
+        // Generate a unique log file name based on the current timestamp
+        string logFileName = Path.Combine(logDirectory, $"Log_{DateTime.Now:yyyyMMdd_HHmmss}.txt");
+
+        // Create a named pipe server
+        using (NamedPipeServerStream pipeServer = new NamedPipeServerStream("dTracePipe", PipeDirection.In))
+        {
+            Console.WriteLine("Logger started. Waiting for connection...");
+
+            while (true)
+            {
+                // Wait for a client to connect
+                pipeServer.WaitForConnection();
+                Console.WriteLine("Client connected. Logging messages...");
+
+                using (StreamReader reader = new StreamReader(pipeServer))
+                using (StreamWriter writer = new StreamWriter(logFileName))
+                {
+                    string message;
+
+                    while (true)
+                    {
+                        // Read messages from the pipe
+                        message = reader.ReadLine();
+                        if (message == null || message == "stop")
+                            break;
+
+                        // Add a timestamp to the message
+                        string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+
+                        // Log the received message to console and file
+                        Console.WriteLine(logMessage);
+                        writer.WriteLine(logMessage);
+                        writer.Flush();
+                    }
+                }
+
+                Console.WriteLine("Client disconnected. Waiting for new connection...");
+            }
+        }
+    }
+}

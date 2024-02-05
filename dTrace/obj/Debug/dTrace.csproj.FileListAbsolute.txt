@@ -1,0 +1,8 @@
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Debug\dTrace.csproj.AssemblyReference.cache
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Debug\dTrace.csproj.SuggestedBindingRedirects.cache
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Debug\dTrace.csproj.CoreCompileInputs.cache
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\bin\Debug\dTrace.exe.config
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\bin\Debug\dTrace.exe
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\bin\Debug\dTrace.pdb
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Debug\dTrace.exe
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Debug\dTrace.pdb
