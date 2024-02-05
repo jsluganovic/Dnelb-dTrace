@@ -4,7 +4,7 @@ dTrace is a .NET Framework application designed to serve as a server for named p
 
 ## Build Status Github Actions
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/jsluganovic/Dnelb-dTrace/.github/workflows/dotnet-desktop.yml?branch=master)
+- ![Build Status](https://img.shields.io/github/actions/workflow/status/jsluganovic/Dnelb-dTrace/.github/workflows/dotnet-desktop.yml?branch=master)
 
 ## Getting Started
 
