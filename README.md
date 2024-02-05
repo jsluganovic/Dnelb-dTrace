@@ -2,6 +2,13 @@
 
 dTrace is a .NET Framework application designed to serve as a server for named pipe communication. It listens for incoming messages from a client and logs these messages with a timestamp to a text file.
 
+## Build Status Github Actions
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/jsluganovic/Dnelb-dTrace/.github/workflows/dotnet-desktop.yml?branch=master)
+
+
+
+
 ## Getting Started
 
 IMPORTANT NOTE: THIS REPO IS MOSTLY USED AS A "FILE HOSTING SERVICE" FOR [DNELB](https://github.com/jsluganovic/dnelb).  
