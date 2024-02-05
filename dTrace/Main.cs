@@ -50,7 +50,7 @@ class dTrace
                                                =##+#####*+:                                         
                                                  -++**+-.                                           
                                                    ..    dTrace [4] dnelb by @jsluganovic 
-                                                         v[0.5]> 22/01/2024                                           
+                                                         v1.0.0 > 22/01/2024                                           
                                                                                                     
 ");
         using (var server = new NamedPipeServerStream("dTracePipe", PipeDirection.InOut, 1, PipeTransmissionMode.Byte, PipeOptions.Asynchronous))

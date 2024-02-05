@@ -5,3 +5,10 @@ C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Release\dTrace.csproj.As
 C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Release\dTrace.csproj.CoreCompileInputs.cache
 C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Release\dTrace.exe
 C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\dTrace\obj\Release\dTrace.pdb
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\bin\Release\dTrace.exe.config
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\bin\Release\dTrace.exe
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\bin\Release\dTrace.pdb
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\obj\Release\dTrace.csproj.AssemblyReference.cache
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\obj\Release\dTrace.csproj.CoreCompileInputs.cache
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\obj\Release\dTrace.exe
+C:\Users\Skipp\Desktop\stuff\b_enc\v8_dTrace\toGithub\Dnelb-dTrace\dTrace\obj\Release\dTrace.pdb
