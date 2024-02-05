@@ -1,6 +1,6 @@
 # Dnelb-dTrace
 
-dTrace is a .NET Framework application designed to [provide a brief description of what the application does].
+dTrace is a .NET Framework application designed to serve as a server for named pipe communication. It listens for incoming messages from a client and logs these messages with a timestamp to a text file.
 
 ## Getting Started
 
@@ -41,9 +41,3 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
