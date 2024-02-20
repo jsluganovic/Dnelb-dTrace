@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <pre id="log"></pre>
+        <script>
+            const { ipcRenderer } = require('electron');
+            ipcRenderer.on('log', (event, message) => {
+                const logElement = document.getElementById('log');
+                const messageElement = document.createElement('p');
+                messageElement.innerHTML = message;
+                logElement.appendChild(messageElement);
+
+                // If the message contains a link, send a 'navigate' message with the URL of the link when it's clicked
+                if (message.includes('<a href=')) {
+                    const linkElement = messageElement.querySelector('a');
+                    linkElement.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        ipcRenderer.send('navigate', linkElement.href);
+                    });
+                }
+            });
+        </script>
+    </body>
+</html>
